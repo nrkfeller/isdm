@@ -36,7 +36,8 @@ func store(AddressToStore []uint8, sdm *SparseDistributedMemoryImpl) {
 	//fmt.Println(count, "hits")
 }
 
-func retrieve(addressToRetrieve []uint8, sdm *SparseDistributedMemoryImpl) []uint8 {
+// Retrieve from isdm
+func Retrieve(addressToRetrieve []uint8, sdm *SparseDistributedMemoryImpl) []uint8 {
 	var neighbors []*HardLocation
 
 	//count := 0

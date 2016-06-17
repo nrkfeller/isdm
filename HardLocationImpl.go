@@ -43,6 +43,7 @@ func (hl *HardLocation) getWordLength() int {
 // 	return hl.counters
 // }
 
+// Write to sdm
 func write(writeAddress []uint8, hl *HardLocation) {
 	hl.writeCount++
 	for k, v := range writeAddress {
