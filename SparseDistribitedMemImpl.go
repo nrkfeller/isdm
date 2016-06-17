@@ -1,4 +1,4 @@
-package testhw
+package isdm
 
 // MaxIterations number of times the read can be feedbacked into the SDM
 const MaxIterations uint8 = 20

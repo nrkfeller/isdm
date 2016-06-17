@@ -1,4 +1,4 @@
-package testhw
+package isdm
 
 import "math/rand"
 
