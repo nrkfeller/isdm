@@ -1,4 +1,4 @@
-package sdm
+package main
 
 import (
 	"math/rand"
@@ -14,6 +14,8 @@ const NumberOfHLs int = 1000
 func main() {
 
 	rand.Seed(time.Now().UTC().UnixNano())
+
+	testhw
 
 	mySDM := NewSDM(NumberOfHLs, AddressLength, 807105)
 

@@ -1,4 +1,4 @@
-package sdm
+package testhw
 
 import (
 	"bufio"
